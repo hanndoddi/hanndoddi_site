@@ -1,8 +1,10 @@
-site_name: hanndoddi
+site_name: Þórarinn Bjartur Breiðfjörð
 site_description: Make First Fix Later
 site_url: https://hanndoddi.com
 theme:
   name: material
+  logo: assets/logo/hanndoddilogo.svg
+  favicon: assets/logo/favicon/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -29,7 +31,7 @@ theme:
       accent: teal
 
 plugins:
-  - social
+#  - social
   - search
   - tags
   - tags:
