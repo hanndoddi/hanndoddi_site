@@ -36,6 +36,8 @@ plugins:
   - tags
   - tags:
       tags_file: tags.md
+  - blog: { blog_dir: Adventures }
+
 
 extra:
   social:
