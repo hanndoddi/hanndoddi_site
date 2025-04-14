@@ -1,3 +1,27 @@
-# How I work
+# How I Work
 
-I work like this
+This section is a window into how I approach projects, solve problems, and build systems, both technically and practically.  
+It covers the tools I use, the methods I rely on, and the mindset I bring into my work as a maker, educator, and technician.
+
+---
+
+## Structure
+
+### Technical  
+Tools I use every day — operating systems, terminal tools, editors, programming languages, and platforms for embedded and digital design.
+
+### Logical  
+How I solve problems, prototype quickly, debug effectively, and learn by doing.
+
+### Systematic Thinking  
+My approach to innovation, layered development, documenting as I go, and managing time and resources across projects.
+
+### Practical  
+The habits and practices that support communication, collaboration, and staying aware of what's happening around me.
+
+---
+
+Each section reflects a part of my workflow — not just what I use, but **how and why I use it**.
+
+[highspeed](https://academany.fabcloud.io/fabacademy/2024/bootcamp-instructors/workshops/BLDC-Modular-Thing/images/train_soldering.jpg)
+> Troubleshooting on a high speed train reading from Leon to Madrid, Spain.
