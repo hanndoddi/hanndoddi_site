@@ -1,5 +1,5 @@
 ---
-date: 2023-04-08
+date: 2025-04-08
 #authors: [Þórarinn]
 description: >
   let problemsolve
@@ -12,4 +12,6 @@ draft: true
 #  - Material for MkDocs
 ---
 
-# Instructur bootcamp Amsterdam Fab Academy
+
+<!-- more -->
+# Under the scope

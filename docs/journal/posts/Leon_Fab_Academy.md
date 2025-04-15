@@ -1,15 +1,17 @@
 ---
-date: 2025-04-08
+date: 2024-04-08
 #authors: [Þórarinn]
 description: >
   let problemsolve
 draft: true
-#categories:
-#  - YouTube Videos
-#  - Material for MkDocs
+categories:
+  - Fab Lab
+  - Trips
 #tags:
 #  - YouTube
 #  - Material for MkDocs
 ---
 
-# Under the scope
+# Instructur bootcamp Leaonn Fab Academy
+
+<!-- more -->

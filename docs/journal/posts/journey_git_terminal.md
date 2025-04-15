@@ -18,6 +18,7 @@ This is document with usefull things I've learned in the terminal mostly git stu
 
 [good git cheat sheet](https://wizardzines.com/git-cheat-sheet.pdf)
 
+<!-- more -->
 
 ## git command to see commit tree
 

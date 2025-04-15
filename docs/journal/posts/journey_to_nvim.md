@@ -12,6 +12,8 @@ description: >
 #  - Material for MkDocs
 ---
 
+
+<!-- more -->
 Markdown Enhancements for Neovim
 Live Preview – View your Markdown in a browser while editing.
 Auto-Completion & Formatting – Ensure lists, tables, and checkboxes auto-complete.

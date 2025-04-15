@@ -4,12 +4,14 @@ date: 2022-02-08
 description: >
   let problemsolve
 draft: true
-#categories:
-#  - YouTube Videos
-#  - Material for MkDocs
+categories:
+  - Fab Lab
+  - Trips
 #tags:
 #  - YouTube
 #  - Material for MkDocs
 ---
 
+
+<!-- more -->
 # Instructur bootcamp Oulu Fab Academy

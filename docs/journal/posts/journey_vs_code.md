@@ -16,6 +16,8 @@ git cli
 
 This is document with things I`ve learned and change in VS code to adapt it to my work flow for more effecentsy and speed.
 
+<!-- more -->
+
 ## short cuts
 
 ### A way to close and open the terminal

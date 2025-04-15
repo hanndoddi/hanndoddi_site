@@ -15,6 +15,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.indexes
   language: en
   palette: 
     - scheme: default
@@ -36,8 +37,10 @@ plugins:
   - tags
   - tags:
       tags_file: tags.md
-  - blog: { blog_dir: Adventures }
-
+  - blog:
+      blog_dir: journal
+      blog_toc: true
+      post_url_format: "{slug}"
 
 extra:
   social:

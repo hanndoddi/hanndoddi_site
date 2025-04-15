@@ -5,9 +5,9 @@ description: >
   Makerfair
 
 #draft: true
-#categories:
-#  - YouTube Videos
-#  - Material for MkDocs
+categories:
+  - Maikerfair
+  - Trips
 #tags:
 #  - YouTube
 #  - Material for MkDocs
@@ -18,6 +18,8 @@ description: >
 # The journey to Shreveport-Bossier Makerfair
 
 In April 2025 I got invited as a guest speaker at a [Makerfair in Shreveport Louisiana](https://shreveport.makerfaire.com/).
+
+<!-- more -->
 
 ## pre Trip
 
