@@ -46,6 +46,7 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hanndoddi
@@ -76,4 +77,5 @@ markdown_extensions:
     #  emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/hanndoddi"  target="_blank" rel="noopener">hanndoddi</a>      
+  &copy; 2024 <a href="https://github.com/hanndoddi"  target="_blank" rel="noopener">hanndoddi</a>  <br>   Made first with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>,
+  then fixed later by <strong>hanndoddi</strong>    
