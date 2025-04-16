@@ -1,35 +1,43 @@
 site_name: Þórarinn Bjartur Breiðfjörð
 site_description: Make First Fix Later
 site_url: https://hanndoddi.com
+
 theme:
   name: material
   logo: assets/logo/hanndoddilogo.svg
   favicon: assets/logo/favicon/favicon.png
+  language: en
+
   features:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
-    - navigation.top 
+    - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    - navigation.indexes
-  language: en
-  palette: 
+
+
+
+  palette:
     - scheme: default
+      primary: custom
+      accent: teal
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/lightbulb-outline 
-        name: Switch to light mode    
-      primary: teal
+    - scheme: slate
+      primary: custom
       accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
 #  - social
@@ -58,6 +66,8 @@ extra:
       link: https://www.linkedin.com/in/hanndoddi
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/hanndoddi
+
+
 
 markdown_extensions:
   - pymdownx.highlight:
