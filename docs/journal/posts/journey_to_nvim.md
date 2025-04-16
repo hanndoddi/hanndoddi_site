@@ -1,12 +1,12 @@
 ---
-date: 2024-12-08
-#authors: [Þórarinn]
+date: 2025-03-13
+authors: [Þórarinn]
 description: >
-  let problemsolve
+  I use nvim btw
 #draft: true
-#categories:
-#  - YouTube Videos
-#  - Material for MkDocs
+categories:
+  - terminal
+  - journey
 #tags:
 #  - YouTube
 #  - Material for MkDocs

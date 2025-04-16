@@ -12,8 +12,8 @@ These tools help me do that in a way that’s clear, practical, and sometimes ev
 
 ## Tools
 
-- [Blender 3D](blender.md)
-- [Inkscape](inkscape.md)
-- [KiCad](kicad.md)
-- [FreeCAD](freecad.md)
-- [Photopea](photopea.md)
+- [Blender 3D](design_tools/blender.md)
+- [Inkscape](design_tools/inkscape.md)
+- [KiCad](design_tools/kicad.md)
+- [FreeCAD](design_tools/freecad.md)
+- [Photopea](design_tools/photopea.md)

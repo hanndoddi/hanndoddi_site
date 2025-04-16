@@ -1,8 +1,8 @@
 ---
 date: 2021-12-08
-#authors: [Þórarinn]
+authors: [Þórarinn]
 description: >
-  let problemsolve
+  lets explore vs code
 #draft: true
 #categories:
 #  - YouTube Videos
@@ -14,7 +14,9 @@ description: >
 # VS Code Journey
 git cli
 
-This is document with things I`ve learned and change in VS code to adapt it to my work flow for more effecentsy and speed.
+This is document with things I`ve learned and change in VS code to adapt it to my work flow for more efficiency and speed.
+
+![prog](https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL2ZsNzE1ODU4NDY2OC1pbWFnZS5qcGc.jpg)
 
 <!-- more -->
 
@@ -40,7 +42,7 @@ This is document with things I`ve learned and change in VS code to adapt it to m
 
 - https://superuser.com/questions/1270103/how-to-switch-the-cursor-between-terminal-and-code-in-vscode 
 
-``ctrl+<`` swicting focus between terminal and editor. Json link below
+``ctrl+<`` switching focus between terminal and editor. Json link below
 
 ```json
     {
@@ -55,9 +57,9 @@ This is document with things I`ve learned and change in VS code to adapt it to m
     },
 ```
 
-## remaping using autohotkey or power toyes
+## remapping using auto hotkey or power toys
 
-Adding code block you have to use this topcomma *`* alot its not on my keyboard so ive remaped it I used the  qustion mark but can now see its a problem.
+Adding code block you have to use this topcomma *`* a lot its not on my keyboard so ive remapped it I used the question mark but can now see its a problem.
 [topic on this matter](https://superuser.com/questions/406211/how-to-make-if-its-possible-character-on-windows-without-alt-96)
 
 alt 96     `

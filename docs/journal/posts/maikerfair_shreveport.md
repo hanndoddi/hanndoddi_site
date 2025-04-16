@@ -2,7 +2,7 @@
 date: 2025-04-10
 authors: [Þórarinn]
 description: >
-  Makerfair
+  Makerfair Shreveport
 
 #draft: true
 categories:
@@ -43,7 +43,7 @@ Friday was spent setting up for the Faire. Because of the travel delays, I unfor
 ### People I Met
 
 **Clint Coleman** – Program Director, North Louisiana STEM Alliance  
-[North Louisiana STEM Alliance (LaSTEM)](https://www.lstem.org/) promotes STEM education across the region by building collaborative programs and partnerships.
+[North Louisiana STEM Alliance (LaSTEM)](https://nlasteamalliance.org/) promotes STEM education across the region by building collaborative programs and partnerships.
 
 **Dianne M. Clark** – Executive Director, [Sci-Port Discovery Center](https://www.sci-port.org/)  
 Leads the center in delivering hands-on science experiences to families, students, and schools throughout the region.
