@@ -8,3 +8,14 @@
     --md-typeset-a-color: #4FC3F7; /* optional: link color */
   }
   
+
+  @font-face {
+  font-family: 'JetBrainsMono Nerd Font';
+  src: url('../../assets/fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --md-text-font: 'JetBrainsMono Nerd Font';
+}
