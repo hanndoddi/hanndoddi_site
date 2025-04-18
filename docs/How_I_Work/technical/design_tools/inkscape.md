@@ -1,4 +1,4 @@
-# Inkscape
+# :simple-inkscape: Inkscape
 
 Inkscape is my main tool for 2D vector design — especially when working on laser cutting, vinyl cutting, or making diagrams.
 

@@ -1,4 +1,8 @@
-# Techncal
+---
+icon: material/tools
+---
+
+# :material-tools: Techncal
 
 My tools and workflows I use for technical work
 

@@ -1,0 +1,5 @@
+---
+icon: material/brain
+---
+
+# logic
