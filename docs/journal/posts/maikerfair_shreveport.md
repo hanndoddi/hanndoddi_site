@@ -36,9 +36,12 @@ I left Reykjavík early in the morning, flew through JFK and Atlanta, and finall
 
 ## Visiting Sci-Port
 
+![sciport](https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-6/490312801_977302054574475_8574817603317766944_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_ohc=X0RBzvqdgksQ7kNvwEbnfDK&_nc_oc=Admv3Nx7bU6przTTrj0QZttl-xzThyIvGRRJsu1wNA4sU1dxQ3JNaiPpHa3uB_sRYkk&_nc_zt=23&_nc_ht=scontent-dus1-1.xx&_nc_gid=xRsDX5_s9syHCzQSBUuQqA&oh=00_AfG1PmLAnZL3lA9U8C8GI4mOafC0SEUT-6YKhTZy_T1GNA&oe=680776DB){: style="height:50%;width:50%" align=right} 
+
 After the airport pickup, we went straight to [Sci-Port](https://sci-port.org/) to meet the Maker Faire team. Sci-Port is a discovery center with impressive exhibitions and a newly established Makerspace/STEM center.
 
 Friday was spent setting up for the Faire. Because of the travel delays, I unfortunately missed a scheduled TV interview in the morning. But I got to meet many of the people I had connected with online, and that’s always a great moment.
+
 
 ### People I Met
 
@@ -86,8 +89,10 @@ I spoke about how innovation isn’t something that only happens in Silicon Vall
 
 Using the metaphor of a sports stadium, I explored what it takes to build an "innovation stadium" a place where people can train, collaborate, and thrive. I showed how our Fab Lab in Ísafjörður works as that kind of space, and I shared stories of people and projects from our community who are making a real impact.
 
-![talk](../../assets/img_posts/makerfair_shreveport/talk.png)
-
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin: 1rem 0;">
+  <img src="../../assets/img_posts/makerfair_shreveport/talk.png" alt="Talk" style="max-width: 45%; height: auto;">
+  <img src="https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-6/490343598_1089687646529705_7486083832848065410_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BHXI-IZF8lUQ7kNvwF6zYbw&_nc_oc=AdlrGHjC6-Usm-9zfAHWX3dIJqvNkCLXCWb18ZOM1tq8CEMibIbGj3rE-0ssSyXkOKM&_nc_zt=23&_nc_ht=scontent-dus1-1.xx&_nc_gid=TpXf1emBXOTSlK5XJ8liDw&oh=00_AfG0EElGx-GKk3LwEVTZEyFXqQx6QoFMFA5TWnE3sLltxQ&oe=680792EB" alt="Vest" style="max-width: 45%; height: auto;">
+</div>
 ---
 
 ## Slide Deck
