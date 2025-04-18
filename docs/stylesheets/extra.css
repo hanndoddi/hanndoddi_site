@@ -16,6 +16,13 @@
   font-style: normal;
 }
 
-:root {
-  --md-text-font: 'JetBrainsMono Nerd Font';
+
+/* Set JetBrainsMono Nerd Font for code blocks */
+code, pre, .md-typeset code {
+  font-family: 'JetBrainsMono Nerd Font', monospace;
+}
+
+/* Fallback for custom icon spans */
+.icon {
+  font-family: 'JetBrainsMono Nerd Font', monospace;
 }

@@ -4,7 +4,7 @@ The terminal is where I feel most at home. I prefer tools that are fast, keyboar
 
 ---
 
-## Kitty 
+## Kitty <span class="icon"></span>
 
 My terminal emulator of choice is [Kitty](https://sw.kovidgoyal.net/kitty/). Yes, the name and cat icon won me over, but it's also genuinely fast, GPU-accelerated, and super customizable.
 
@@ -20,7 +20,7 @@ I don't config much I have Nerdfont, hide the boarder and make it transparent.
 
 ---
 
-## Zsh 󱎃
+## Zsh <span class="icon">󱎃</span>
 
 I use [Zsh](https://www.zsh.org/) because it’s highly configurable and offers smart completion, syntax highlighting, and autosuggestions. It's a joy to use once it’s tuned right.
 
