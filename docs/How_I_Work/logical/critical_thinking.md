@@ -1,6 +1,6 @@
 # Critical Thinking
 
-Critical thinking is a valuable skill to nurture I use it in varius situation. It helps me ask better questions, see the bigger picture, and avoid wasting time on false assumptions.
+Critical thinking is a valuable skill to nurture I use it in various situation. It helps me ask better questions, see the bigger picture, and avoid wasting time on false assumptions.
 
 Whether I’m teaching, designing a system, reviewing ideas with a team, or just trying to get something to work, this mindset helps me stay grounded and focused on what actually matters.
 
