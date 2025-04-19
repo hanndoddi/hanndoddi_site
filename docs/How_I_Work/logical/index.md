@@ -22,4 +22,3 @@ This section explores four areas:
   My mindset around fast iterations, working with what I have, and learning through action.
 
 These skills support everything I do—from teaching and prototyping to troubleshooting and planning.
-

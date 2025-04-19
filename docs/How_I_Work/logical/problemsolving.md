@@ -13,23 +13,23 @@ This is where it started for me. Debugging electronics taught me to be patient, 
 
 Here’s my typical workflow when approaching an electronic issue:
 
-1. Visual inspection  
-2. Feel for heat  
-3. Smell (burnt or chemical smells can say a lot)  
-4. Check obvious voltages and grounds (GND should always be 0 V—if it’s floating, it won’t show correctly)  
+1. Visual inspection
+2. Feel for heat
+3. Smell (burnt or chemical smells can say a lot)
+4. Check obvious voltages and grounds (GND should always be 0 V—if it’s floating, it won’t show correctly)
 5. I primarily test using voltage. From that, I can calculate current and find shorts or broken connections.
 
 ### Favorite Test Tools
 
-- **Scope** - for seeing what the system won't tell you  
-- **Freeze spray** - for catching thermal issues  
-- **Short wire** - to bypass or bridge suspected faults  
-- **Square wave test** - for tracing signals across boards  
-- **Isopropanol or rosin atomizer** - to detect hot spots or weak joints  
+- **Scope** - for seeing what the system won't tell you
+- **Freeze spray** - for catching thermal issues
+- **Short wire** - to bypass or bridge suspected faults
+- **Square wave test** - for tracing signals across boards
+- **Isopropanol or rosin atomizer** - to detect hot spots or weak joints
 
 ## Code / Systems
 
-When it comes to code or system-level problems, I apply the same mindset: isolate, test, observe. I avoid assumptions, and I like to start by asking: *What should this actually do?* Then I compare that to what’s happening. Whether I’m debugging firmware or troubleshooting automation scripts, I treat it like signal tracing—just in a different language.
+When it comes to code or system-level problems, I apply the same mindset: isolate, test, observe. I avoid assumptions, and I like to start by asking: _What should this actually do?_ Then I compare that to what’s happening. Whether I’m debugging firmware or troubleshooting automation scripts, I treat it like signal tracing—just in a different language.
 
 ## Machines
 
@@ -48,4 +48,5 @@ I also believe in testing early. If I have a hunch, I try to prove or disprove i
 After identifying the problem, I work on a fix and decide whether it’s acceptable long-term—depending on how critical the system is. Sometimes a temporary solution is fine as long as it buys time until the proper spare part can be sourced.
 
 ![fix](https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-6/464415840_10230143669082973_2411371902132255510_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=g7yNtr6fQ-YQ7kNvwH7ocak&_nc_oc=Adk0nTxMNNZVV4iqpBmSSptT3igwrZqy2zOl2hpsNtfAIxhndz9BqqrPghsQeYfNADM&_nc_zt=23&_nc_ht=scontent-dus1-1.xx&_nc_gid=2o_ZdUTWhTM3qyo5I0oRRQ&oh=00_AfHucd-FGRl_B5sgWFtD4pR4HvOo8uyCwQNibAMiV2HlCA&oe=6808C6CE)
+
 > One memorable on-the-spot fix: five minutes before going live, the broadcast mast wouldn’t raise. I quickly identified a faulty relay, grabbed a screwdriver, shorted it—and we went live on time.
