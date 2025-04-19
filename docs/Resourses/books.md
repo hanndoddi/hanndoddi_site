@@ -1,3 +1,7 @@
+---
+icon: material/book-heart
+---
+
 # Books
 
 !!! info
