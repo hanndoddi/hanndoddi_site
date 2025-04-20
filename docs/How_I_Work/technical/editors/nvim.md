@@ -8,10 +8,10 @@ After getting over how cool it looked and spending days configuring it, I discov
 
 ## Setup
 
-For anyone just starting out, I’d recommend checking out [kickstart nvim](https://github.com/nvim-lua/kickstart.nvim).  
+For anyone just starting out, I’d recommend checking out [kickstart nvim](https://github.com/nvim-lua/kickstart.nvim{:rel="nofollow"} ).  
 It’s a great minimal starter config.
 
-There’s also [this video](https://youtu.be/6pAG3BHurdM?si=Q-vdsjJOm6IU9Qy6) that I *really* wish I’d found earlier.
+There’s also [this video](https://youtu.be/6pAG3BHurdM?si=Q-vdsjJOm6IU9Qy6){:rel="nofollow"}  that I *really* wish I’d found earlier.
 
 I now use my own custom setup, inspired by Kickstart and a few other configs I’ve found along the way.
 
