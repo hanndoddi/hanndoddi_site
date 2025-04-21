@@ -16,7 +16,7 @@ categories:
 
 In this session, we explored how to **reverse engineer an Arduino blink sketch** from its **compiled binary files** using various tools like **GDB, avr-objdump, and strings**.
 
-![elf](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bcd161ac-814c-4827-94fc-f6e63e584f9d/d351a5x-0570f2e5-f1c4-4fad-abab-db6902e5e29e.jpg)
+![elf](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bcd161ac-814c-4827-94fc-f6e63e584f9d/d351a5x-0570f2e5-f1c4-4fad-abab-db6902e5e29e.jpg){width=50%}
 
 <!-- more -->
 ---
