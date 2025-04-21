@@ -166,10 +166,17 @@ I also applied this same logic for `Super + W` and `Super + V`, so all my Rofi m
 
 ---
 
+## Emoji Picker ⛏️
+
+I was originally looking for an emoji picker that worked with Rofi. I explored both [`Mange/rofi-emoji`](https://github.com/Mange/rofi-emoji) and [`fdw/rofimoji`](https://github.com/fdw/rofimoji), but since there wasn’t a simple `apt` package for either 😵‍💫 I figured I might as well just use something that was easier to install — and honestly, it didn’t need to be part of the Rofi setup anyway.
+
+So I found **Emote** in the Linux Mint Software Manager, and it works great for what I want. I use the default shortcut `Ctrl + Alt + E`, which is especially nice because I can hit it with one hand. 😎🖖
+
+
 ## Working on
 
 !!! info
-    currently I'm working on getting a bluetooth, audio, emoji and maybe calculator menu.
+    currently I'm working on getting a bluetooth, audio, and maybe calculator menu.
 
 ## Final Thoughts
 
