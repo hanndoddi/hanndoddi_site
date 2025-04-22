@@ -52,7 +52,7 @@ rofi -dump-config > ~/.config/rofi/config.rasi
 
 In the config file, I added the following configuration block. Rofi uses a custom styling format called `.rasi`, which is similar to CSS. I had to unbind some default keys to make j/k/l work, and I enabled icon support and set the font to my Nerd Font. I also applied the Monokai theme (might change that later).
 
-```rasi
+```c
 @theme "/usr/share/rofi/themes/Monokai.rasi"
 
 configuration {
@@ -110,7 +110,7 @@ I set it up like this:
 
 ## Rofi Wi-Fi Menu with Super + W
 
-One of the features I really wanted was a quick way to connect to Wi-Fi networks from the keyboard. I found [ericmurphyxyz/rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu), a great minimal script that uses `nmcli` and Rofi to present available Wi-Fi networks in a clean interface.
+One of the features I really wanted was a quick way to connect to Wi-Fi networks from the keyboard. I found [ericmurphyxyz/rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu){:rel="nofollow"} , a great minimal script that uses `nmcli` and Rofi to present available Wi-Fi networks in a clean interface.
 
 I cloned it into my Rofi config folder to keep things tidy:
 
@@ -168,7 +168,7 @@ I also applied this same logic for `Super + W` and `Super + V`, so all my Rofi m
 
 ## Emoji Picker ⛏️
 
-I was originally looking for an emoji picker that worked with Rofi. I explored both [`Mange/rofi-emoji`](https://github.com/Mange/rofi-emoji) and [`fdw/rofimoji`](https://github.com/fdw/rofimoji), but since there wasn’t a simple `apt` package for either 😵‍💫 I figured I might as well just use something that was easier to install — and honestly, it didn’t need to be part of the Rofi setup anyway.
+I was originally looking for an emoji picker that worked with Rofi. I explored both [`Mange/rofi-emoji`](https://github.com/Mange/rofi-emoji){:rel="nofollow"}  and [`fdw/rofimoji`](https://github.com/fdw/rofimoji){:rel="nofollow"} , but since there wasn’t a simple `apt` package for either 😵‍💫 I figured I might as well just use something that was easier to install — and honestly, it didn’t need to be part of the Rofi setup anyway.
 
 So I found **Emote** in the Linux Mint Software Manager, and it works great for what I want. I use the default shortcut `Ctrl + Alt + E`, which is especially nice because I can hit it with one hand. 😎🖖
 
@@ -205,7 +205,7 @@ Then bind to `Super + A` via **Settings → Keyboard → Shortcuts**.
 
 ## Bluetooth Menu with Rofi
 
-I’m using [`nickclyde/rofi-bluetooth`](https://github.com/nickclyde/rofi-bluetooth), which integrates `bluetoothctl` into a nice Rofi interface.
+I’m using [`nickclyde/rofi-bluetooth`](https://github.com/nickclyde/rofi-bluetooth){:rel="nofollow"} , which integrates `bluetoothctl` into a nice Rofi interface.
 
 Cloned to: `~/.config/rofi/rofi-bluetooth`
 
@@ -252,3 +252,5 @@ Here's how I currently use Rofi and related tools, mapped to convenient keybindi
 And all of them feel native and responsive, with full Nerd Font icon support and a sleek Monokai theme that I customized a little.
 
 Rofi is one of those tools that rewards customization and can scale with you as your needs evolve. Highly recommend diving into it if you’re looking for a faster, more keyboard-friendly way to move around Linux Mint.
+
+All my config can be found  [here in my dotfiles](https://github.com/hanndoddi/dotfiles/tree/main/.config/rofi){:rel="nofollow"} 

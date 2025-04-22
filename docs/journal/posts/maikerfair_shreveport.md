@@ -20,7 +20,7 @@ categories:
 
 ## The Journey to Shreveport-Bossier Maker Faire
 
-In 2024, I received an invitation to join the [Shreveport-Bossier Maker Faire](https://shreveport.makerfaire.com/). I was excited to share how we use innovation and digital fabrication to empower people in remote regions of Iceland, through the network of Icelandic Fab Labs, which has been active since 2007 when the first lab opened in Vestmannaeyjar. I wanted to highlight how [Fab Lab Ísafjörður](https://fabisa.is) has made its mark and created local as well as global impact.
+In 2024, I received an invitation to join the [Shreveport-Bossier Maker Faire](https://shreveport.makerfaire.com/){:rel="nofollow"} . I was excited to share how we use innovation and digital fabrication to empower people in remote regions of Iceland, through the network of Icelandic Fab Labs, which has been active since 2007 when the first lab opened in Vestmannaeyjar. I wanted to highlight how [Fab Lab Ísafjörður](https://fabisa.is){:rel="nofollow"}  has made its mark and created local as well as global impact.
 
 ![make](https://i0.wp.com/shreveport.makerfaire.com/wp-content/uploads/sites/113/2024/08/MF_Shreveport-Bossier_Logo_stacked_Logo_2024.png?fit=750%2C750&strip=all)
 
@@ -28,7 +28,7 @@ In 2024, I received an invitation to join the [Shreveport-Bossier Maker Faire](h
 
 ## Pre-Trip
 
-Preparing for the trip took some effort, coordinating schedules, finishing projects at the lab, and planning the talk. The day before departure, I traveled to Reykjavík and spent the day at [Fab Lab Reykjavík](https://www.flr.is) to catch up with colleagues and narrow down what I could share at the Maker Faire.
+Preparing for the trip took some effort, coordinating schedules, finishing projects at the lab, and planning the talk. The day before departure, I traveled to Reykjavík and spent the day at [Fab Lab Reykjavík](https://www.flr.is){:rel="nofollow"}  to catch up with colleagues and narrow down what I could share at the Maker Faire.
 
 I left Reykjavík early in the morning, flew through JFK and Atlanta, and finally arrived in Shreveport on Friday morning after some delays and a missed connection. Tired, but excited. Joel picked me up at the airport in his Maker Van. He’s a true community engager like no other. On the same flight was Hunter, part of the [Power Racing Series](https://powerracingseries.org/), where people modify toy cars to race them at high speeds.
 
@@ -46,30 +46,30 @@ Friday was spent setting up for the Faire. Because of the travel delays, I unfor
 ### People I Met
 
 **Clint Coleman** – Program Director, North Louisiana STEM Alliance  
-[North Louisiana STEM Alliance (LaSTEM)](https://nlasteamalliance.org/) promotes STEM education across the region by building collaborative programs and partnerships.
+[North Louisiana STEM Alliance (LaSTEM)](https://nlasteamalliance.org/){:rel="nofollow"}  promotes STEM education across the region by building collaborative programs and partnerships.
 
-**Dianne M. Clark** – Executive Director, [Sci-Port Discovery Center](https://www.sci-port.org/)  
+**Dianne M. Clark** – Executive Director, [Sci-Port Discovery Center](https://www.sci-port.org/){:rel="nofollow"}   
 Leads the center in delivering hands-on science experiences to families, students, and schools throughout the region.
 
 **Joel Leonard** – Maker Faire organizer / community engager  
 Maker of the *Thorminator* and a passionate advocate for connecting makers around the world.
 
 **Hunter** – Power Racing Series  
-Part of the [Power Racing Series](https://powerracingseries.org/), where participants modify toy cars for high-speed racing a wild, fun, and creatively engineered spectacle.
+Part of the [Power Racing Series](https://powerracingseries.org/){:rel="nofollow"} , where participants modify toy cars for high-speed racing a wild, fun, and creatively engineered spectacle.
 
-**Jennifer Johnson** – STEM Education Coordinator, [Sci-Port Discovery Center](https://www.sci-port.org/)  
+**Jennifer Johnson** – STEM Education Coordinator, [Sci-Port Discovery Center](https://www.sci-port.org/){:rel="nofollow"}   
 STEM education specialist focused on outreach, curriculum design, and hands-on learning experiences. Passionate about making science accessible and engaging for all ages.
 
 **John Galiotos** – Southern University at Shreveport, Louisiana  
 Works to advance applied STEM education and workforce development through technical programs and academic partnerships.
 
-**Heather Kleiner** – Director, [Sci-Port Discovery Center](https://www.sci-port.org/)  
+**Heather Kleiner** – Director, [Sci-Port Discovery Center](https://www.sci-port.org/){:rel="nofollow"}   
 Oversees programs and initiatives that bridge science education, innovation, and public engagement.
 
-**Nicola Mattis** – Founder and CMO, [Brand Engineer Studios](https://www.brandengineerstudios.com/)  
+**Nicola Mattis** – Founder and CMO, [Brand Engineer Studios](https://www.brandengineerstudios.com/){:rel="nofollow"}   
 Works at the intersection of design, technology, and brand strategy helping creators and companies shape their identity and grow.
 
-**Maria Esquela** – Founding member, [e-NABLE Alliance](https://enablingthefuture.org/)  
+**Maria Esquela** – Founding member, [e-NABLE Alliance](https://enablingthefuture.org/){:rel="nofollow"}   
 Part of a global volunteer movement that designs and distributes free 3D-printed prosthetics for people in need, especially children.
 
 ---
@@ -99,7 +99,7 @@ Using the metaphor of a sports stadium, I explored what it takes to build an "in
 
 Here are the slides from my keynote talk at the 2025 Shreveport-Bossier Maker Faire:
 
-[Slide deck: Arctic Innovation – Impacting Iceland and Beyond](https://hanndoddi.github.io/makerfair_shreveport/index.html)
+[Slide deck: Arctic Innovation – Impacting Iceland and Beyond](https://hanndoddi.github.io/makerfair_shreveport/index.html){:rel="nofollow"} 
 
 ---
 
