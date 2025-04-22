@@ -5,9 +5,10 @@ icon: material/brain
 # 🧠 Logical
 
 Logical thinking is definitely my comfort zone and something that comes naturally to me. I’ve learned to channel it into strengths and stay aware of its limitations.  
-It helps me break down problems, test assumptions, and make thoughtful decisions, whether I’m debugging a circuit, planning a workshop, or collaborating with others.
-
+It helps me break down problems, test assumptions, and make thoughtful decisions, whether I’m debugging a circuit, planning a workshop, or collaborating with others. 
+ 
 This section explores four areas:
+
 
 - [Critical Thinking](/How_I_Work/logical/critical_thinking/)  
   How I question assumptions, reason through challenges, and pay attention to the details that matter.
