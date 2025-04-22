@@ -172,20 +172,83 @@ I was originally looking for an emoji picker that worked with Rofi. I explored b
 
 So I found **Emote** in the Linux Mint Software Manager, and it works great for what I want. I use the default shortcut `Ctrl + Alt + E`, which is especially nice because I can hit it with one hand. 😎🖖
 
+---
+
+## Audio Output Switcher with Rofi
+
+I wrote a small script that uses `pactl` to list and switch audio outputs. When launched, it shows a list of audio sinks and sets the default when one is selected.
+
+Saved it here: `~/.config/rofi/rofi-audio-switch/rofi-audio-switch.sh`:
+
+```bash
+#!/bin/bash
+
+sinks=$(pactl list short sinks | awk '{print $2}')
+default_sink=$(pactl info | grep 'Default Sink' | awk '{print $3}')
+chosen_sink=$(echo "$sinks" | rofi -dmenu -p "Select Audio Output (Current: $default_sink)")
+
+if [ -n "$chosen_sink" ]; then
+    pactl set-default-sink "$chosen_sink"
+    notify-send "Audio Output Switched" "Now using: $chosen_sink"
+fi
+```
+
+Make it executable:
+
+```bash
+chmod +x ~/.config/rofi/rofi-audio-switch/rofi-audio-switch.sh
+```
+
+Then bind to `Super + A` via **Settings → Keyboard → Shortcuts**.
+
+---
+
+## Bluetooth Menu with Rofi
+
+I’m using [`nickclyde/rofi-bluetooth`](https://github.com/nickclyde/rofi-bluetooth), which integrates `bluetoothctl` into a nice Rofi interface.
+
+Cloned to: `~/.config/rofi/rofi-bluetooth`
+
+```bash
+git clone https://github.com/nickclyde/rofi-bluetooth ~/.config/rofi/rofi-bluetooth
+chmod +x ~/.config/rofi/rofi-bluetooth/rofi-bluetooth
+```
+
+Test it:
+
+```bash
+~/.config/rofi/rofi-bluetooth/rofi-bluetooth
+```
+
+Bind it to `Super + B` in **Settings → Keyboard → Shortcuts**.
+
+This lets me toggle paired devices with one key combo. Smooth.
+
+---
 
 ## Working on
 
 !!! info
-    currently I'm working on getting a bluetooth, audio, and maybe calculator menu.
+    currently I have not tyred the calculator menu and not sure I have a need for it. I'll add some photos later or never.
 
 ## Final Thoughts
 
 With Rofi fully integrated into my workflow, I now have:
 
-- `Super` — App launcher
-- `Super + V` — Window switcher
-- `Super + W` — Wi-Fi menu
+### Rofi Keybindings Overview
 
-And all of them feel native and responsive, with full Nerd Font icon support and a sleek Monokai theme. I might later explore using Rofi for audio switching, emoji picker, or even building a custom system menu — but for now, this setup feels solid.
+Here's how I currently use Rofi and related tools, mapped to convenient keybindings for speed and accessibility:
+
+| Shortcut         | Action                 | Command / Tool                                      | Speed     |
+|------------------|------------------------|-----------------------------------------------------|-----------|
+| `Super`          | App launcher           | `rofi -show drun`                                   | ⚡ Fast    |
+| `Super + V`      | Window switcher        | `rofi -show window`                                 | ⚡ Fast    |
+| `Super + W`      | Wi-Fi menu             | Custom script: `rofi-wifi-menu.sh`                  | 🕐 Medium |
+| `Super + A`      | Audio output switcher  | Custom script: `rofi-audio-switch.sh`               | ⚡ Fast    |
+| `Super + B`      | Bluetooth device menu  | Custom script: `rofi-bluetooth`                     | ⚡ Fast    |
+| `Ctrl + Alt + E` | Emoji picker           | GUI App: Emote                                      | ⚡ Fast    |
+
+
+And all of them feel native and responsive, with full Nerd Font icon support and a sleek Monokai theme that I customized a little.
 
 Rofi is one of those tools that rewards customization and can scale with you as your needs evolve. Highly recommend diving into it if you’re looking for a faster, more keyboard-friendly way to move around Linux Mint.
