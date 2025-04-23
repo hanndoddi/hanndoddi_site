@@ -229,7 +229,7 @@ This lets me toggle paired devices with one key combo. Smooth.
 ## Working on
 
 !!! info
-    currently I have not tyred the calculator menu and not sure I have a need for it. I'll add some photos later or never.
+    currently I have not tyred the calculator menu and not sure I have a need for it. I'll add some photos later or never. I also would like to add a clock, calendar and battery status.
 
 ## Final Thoughts
 
