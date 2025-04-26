@@ -14,12 +14,19 @@ It works great with Neovim and supports features like:
 - Configurable keybindings
 - Fast startup and rendering
 
-### keybinds
+### Kitty Keybindings
+| Shortcut         | Action                   |
+|------------------|--------------------------|
+| `kitty_mod + e`   | Open new split window      |
+| `kitty_mod + t`   | Open new tab   |
+| `kitty_mod + n`   | Open new tab (same dir)   |
+| `kitty_mod + w`   | close tab/window   |
+| `kitty_mod + enter`   | pen new split window    |
+| `kitty_mod + f2`   | open kitty config   |
+| `kitty_mod + f5`   | reload kitty config   |
 
-- ```ctrl```+```shift```+```t``` = new tab  
-- ```ctrl```+```shift```+```w``` = close tab  
-- ```ctrl```+```shift```+```n``` = new tab in same directory 
-- ```ctrl```+```shift```+```enter``` = split window
+
+*(kitty_mod `Ctrl + Shift`)*
 
 ### config
 
@@ -27,6 +34,20 @@ I don’t customize Kitty much. I use the MesloLGM Nerd Font to support icons, h
 
 
 [My kitty config can be found here](https://github.com/hanndoddi/dotfiles/tree/main/.config/kitty){:rel="nofollow"} 
+
+### Appearance
+- **Font:** `MesloLGM Nerd Font`
+- **Opacity:** `background_opacity 0.9`
+- **Logo:** Custom transparent logo: `/path/to/logo.png`
+- **Window Decorations:** Disabled (`hide_window_decorations 1`)
+
+###  Navigation & Layout (Cinnamon)
+| Shortcut         | Action                            |
+|------------------|-----------------------------------|
+| `Super + ←/→/↑/↓`| Tile window to side or corner     |
+| `Super + Down`   | Unmaximize / Restore tiled window |
+| `Alt + F8`       | Resize window with arrow keys     |
+| `Alt + Space`    | Window menu (move, resize, etc.)  |
 
 ---
 
