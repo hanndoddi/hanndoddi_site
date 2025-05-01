@@ -54,8 +54,9 @@ Leads the center in delivering hands-on science experiences to families, student
 **Joel Leonard** – Maker Faire organizer / community engager  
 Maker of the *Thorminator* and a passionate advocate for connecting makers around the world.
 
-**Hunter** – Power Racing Series  
+**Hunter  Leonard** – Power Racing Series  
 Part of the [Power Racing Series](https://powerracingseries.org/){:rel="nofollow"} , where participants modify toy cars for high-speed racing a wild, fun, and creatively engineered spectacle.
+This is [Hunters site personal site](https://subportspeakers.weebly.com/){:rel="nofollow"}. Hunter works for [BETA technologies](https://beta.team/){:rel="nofollow"} An aerospace company manufacturing electric planes. 
 
 **Jennifer Johnson** – STEM Education Coordinator, [Sci-Port Discovery Center](https://www.sci-port.org/){:rel="nofollow"}   
 STEM education specialist focused on outreach, curriculum design, and hands-on learning experiences. Passionate about making science accessible and engaging for all ages.
