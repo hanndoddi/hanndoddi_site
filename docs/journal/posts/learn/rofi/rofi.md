@@ -16,7 +16,7 @@ categories:
 
 I've been noticing I mainly use the start menu to type in the app I want to use, so I started looking into better alternatives I could replace the start menu with. I came across **Ulauncher** and **Rofi** — both looked really nice, but I decided to go with **Rofi** since it can not only open apps, but also act as a run dialog, SSH launcher, file switcher, and even run custom scripts like “connect to Wi-Fi” or “change audio source”.
 
-![rofi](https://mxlinux.org/wp-content/uploads/2020/08/rofi-1.png)
+![rofi](./cover-rofi.jpg)
 
 <!-- more -->
 
