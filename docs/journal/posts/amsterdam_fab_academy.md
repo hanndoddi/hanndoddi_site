@@ -1,6 +1,6 @@
 ---
 date: 2023-04-08
-#authors: [Þórarinn]
+authors: [Þórarinn]
 description: >
   Reflections and highlights from the Instructor Bootcamp in Amsterdam.
 draft: false

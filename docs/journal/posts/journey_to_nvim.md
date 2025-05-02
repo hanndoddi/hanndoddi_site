@@ -14,13 +14,7 @@ categories:
 
 
 <!-- more -->
-Markdown Enhancements for Neovim
-Live Preview – View your Markdown in a browser while editing.
-Auto-Completion & Formatting – Ensure lists, tables, and checkboxes auto-complete.
-Folding & TOC Generation – Easily navigate large Markdown files.
-Better Syntax Highlighting – Improve readability.
-Keybindings – Speed up workflow (e.g., bold, italics, code blocks).
-Exporting – Convert Markdown to HTML, PDF, or other formats.
+
 
 
 
@@ -97,4 +91,13 @@ nvim
 :Lazy sync
 Re-test task lists (- [ ] Task)
 If still not working, try :verbose set conceallevel? inside Neovim.
-Let me know if you need help upgrading Neovim! 🚀
+
+
+
+#Markdown Enhancements for Neovim
+Live Preview – View your Markdown in a browser while editing.
+Auto-Completion & Formatting – Ensure lists, tables, and checkboxes auto-complete.
+Folding & TOC Generation – Easily navigate large Markdown files.
+Better Syntax Highlighting – Improve readability.
+Keybindings – Speed up workflow (e.g., bold, italics, code blocks).
+Exporting – Convert Markdown to HTML, PDF, or other formats.

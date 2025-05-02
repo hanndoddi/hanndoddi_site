@@ -13,7 +13,7 @@ categories:
 #  - Material for MkDocs
 ---
 
-## The Journey to Shreveport-Bossier Maker Faire
+# Journey to Shreveport Bossier Maker Faire
 
 In 2024, I received an invitation to join the [Shreveport-Bossier Maker Faire](https://shreveport.makerfaire.com/){:rel="nofollow"} . I was excited to share how we use innovation and digital fabrication to empower people in remote regions of Iceland, through the network of Icelandic Fab Labs, which has been active since 2007 when the first lab opened in Vestmannaeyjar. I wanted to highlight how [Fab Lab Ísafjörður](https://fabisa.is){:rel="nofollow"}  has made its mark and created local as well as global impact.
 

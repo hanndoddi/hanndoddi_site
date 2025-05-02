@@ -8,7 +8,7 @@ categories:
   - Trips
 ---
 
-# Instructor Bootcamp – León
+# Instructor Bootcamp Leon
 
 In January 2024, I traveled to León, Spain, to take part in the Fab Academy Instructor Bootcamp. This time I had some good company traveling with Svavar so we were team Fab Lab Ísafjörður! Andri from Fab Lab Reykjavík and Frosti from Fab Lab Vestmannaeyjar joined us in Reykjavík. A proper Icelandic Fab Lab squad.
 
