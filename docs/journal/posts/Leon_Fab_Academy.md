@@ -2,7 +2,7 @@
 date: 2024-01-01
 description: >
   Notes from the Fab Academy Instructor Bootcamp in León, Spain.
-draft: true
+#draft: true
 categories:
   - Fab Lab
   - Trips
