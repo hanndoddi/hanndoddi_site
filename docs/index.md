@@ -5,7 +5,7 @@ hide:
   - path
 ---
 
-![cover baner](assets/tbbg.png)
+![cover baner](assets/tbbg.jpg)
 
 
 
