@@ -4,12 +4,8 @@ authors: [Þórarinn]
 description: >
   lets explore vs code
 #draft: true
-#categories:
-#  - YouTube Videos
-#  - Material for MkDocs
-#tags:
-#  - YouTube
-#  - Material for MkDocs
+categories:
+  - Journey
 ---
 # VS Code Journey
 git cli

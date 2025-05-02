@@ -7,9 +7,6 @@ draft: true
 categories:
   - terminal
   - nvim
-#tags:
-#  - YouTube
-#  - Material for MkDocs
 ---
 
 

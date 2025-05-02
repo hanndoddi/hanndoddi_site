@@ -1,14 +1,11 @@
 ---
 date: 2025-04-21
-#authors: [Þórarinn]
+authors: [Þórarinn]
 description: >
    Exploring Rofi - window switcher and Application launcher
 #draft: true
 categories:
   - Linux Mint
-#tags:
-#  - YouTube
-#  - Material for MkDocs
 ---
 
 

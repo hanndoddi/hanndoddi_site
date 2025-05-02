@@ -3,14 +3,10 @@ date: 2025-04-10
 authors: [Þórarinn]
 description: >
   Makerfair Shreveport
-
 #draft: true
 categories:
   - Maikerfair
   - Trips
-#tags:
-#  - YouTube
-#  - Material for MkDocs
 ---
 
 # Journey to Shreveport Bossier Maker Faire

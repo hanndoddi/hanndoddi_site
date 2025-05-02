@@ -7,9 +7,6 @@ description: >
 categories:
   - terminal
   - journey
-#tags:
-#  - YouTube
-#  - Material for MkDocs
 ---
 
 # 🔍 Round 1: Reverse Engineering an .elf file

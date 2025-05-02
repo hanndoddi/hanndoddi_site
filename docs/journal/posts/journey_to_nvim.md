@@ -3,8 +3,8 @@ date: 2025-04-04
 description: >
   A personal journey from fear to familiarity with Neovim. I use Neovim btw!
 categories:
-  - Dev Environment
-  - Neovim
+  - Journey
+  - nvim
 ---
 
 # Journey to Neovim
