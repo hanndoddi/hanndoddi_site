@@ -13,16 +13,11 @@ categories:
 #  - Material for MkDocs
 ---
 
-!!! info
-    I'm in the proccess of documenting and have yet to add photos, links and more.
-
-
-
 ## The Journey to Shreveport-Bossier Maker Faire
 
 In 2024, I received an invitation to join the [Shreveport-Bossier Maker Faire](https://shreveport.makerfaire.com/){:rel="nofollow"} . I was excited to share how we use innovation and digital fabrication to empower people in remote regions of Iceland, through the network of Icelandic Fab Labs, which has been active since 2007 when the first lab opened in Vestmannaeyjar. I wanted to highlight how [Fab Lab Ísafjörður](https://fabisa.is){:rel="nofollow"}  has made its mark and created local as well as global impact.
 
-![make](https://i0.wp.com/shreveport.makerfaire.com/wp-content/uploads/sites/113/2024/08/MF_Shreveport-Bossier_Logo_stacked_Logo_2024.png?fit=750%2C750&strip=all)
+![make](./cover-maker.jpg)
 
 <!-- more -->
 
@@ -34,15 +29,15 @@ I left Reykjavík early in the morning, flew through JFK and Atlanta, and finall
 
 ---
 
-## Visiting Sci-Port
+![sciport](./outside-sciport.jpg){: style="height:50%;width:50%" align=right} 
 
-![sciport](https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-6/490312801_977302054574475_8574817603317766944_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_ohc=X0RBzvqdgksQ7kNvwEbnfDK&_nc_oc=Admv3Nx7bU6przTTrj0QZttl-xzThyIvGRRJsu1wNA4sU1dxQ3JNaiPpHa3uB_sRYkk&_nc_zt=23&_nc_ht=scontent-dus1-1.xx&_nc_gid=xRsDX5_s9syHCzQSBUuQqA&oh=00_AfG1PmLAnZL3lA9U8C8GI4mOafC0SEUT-6YKhTZy_T1GNA&oe=680776DB){: style="height:50%;width:50%" align=right} 
+## Visiting Sci-Port
 
 After the airport pickup, we went straight to [Sci-Port](https://sci-port.org/) to meet the Maker Faire team. Sci-Port is a discovery center with impressive exhibitions and a newly established Makerspace/STEM center.
 
 Friday was spent setting up for the Faire. Because of the travel delays, I unfortunately missed a scheduled TV interview in the morning. But I got to meet many of the people I had connected with online, and that’s always a great moment.
 
-
+<br><br>
 ### People I Met
 
 **Clint Coleman** – Program Director, North Louisiana STEM Alliance  
@@ -91,14 +86,18 @@ I spoke about how innovation isn’t something that only happens in Silicon Vall
 Using the metaphor of a sports stadium, I explored what it takes to build an "innovation stadium" a place where people can train, collaborate, and thrive. I showed how our Fab Lab in Ísafjörður works as that kind of space, and I shared stories of people and projects from our community who are making a real impact.
 
 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin: 1rem 0;">
-  <img src="../../assets/img_posts/makerfair_shreveport/talk.png" alt="Talk" style="max-width: 45%; height: auto;">
-  <img src="https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-6/490343598_1089687646529705_7486083832848065410_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BHXI-IZF8lUQ7kNvwF6zYbw&_nc_oc=AdlrGHjC6-Usm-9zfAHWX3dIJqvNkCLXCWb18ZOM1tq8CEMibIbGj3rE-0ssSyXkOKM&_nc_zt=23&_nc_ht=scontent-dus1-1.xx&_nc_gid=TpXf1emBXOTSlK5XJ8liDw&oh=00_AfG0EElGx-GKk3LwEVTZEyFXqQx6QoFMFA5TWnE3sLltxQ&oe=680792EB" alt="Vest" style="max-width: 45%; height: auto;">
+  <img src="../trips/makerfair-shreveport/talk.png" alt="Talk" style="max-width: 45%; height: auto;">
+  <img src="../trips/makerfair-shreveport/talk2.jpg" alt="talk2" style="max-width: 45%; height: auto;">
 </div>
 ---
 
 ## Slide Deck
 
 Here are the slides from my keynote talk at the 2025 Shreveport-Bossier Maker Faire:
+
+<iframe src="https://hanndoddi.github.io/makerfair_shreveport/index.html" title="deck.js" width="600" height="350">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 
 [Slide deck: Arctic Innovation – Impacting Iceland and Beyond](https://hanndoddi.github.io/makerfair_shreveport/index.html){:rel="nofollow"} 
 
@@ -134,12 +133,15 @@ Here are the slides from my keynote talk at the 2025 Shreveport-Bossier Maker Fa
 I also joined a panel discussion about the Maker Faire community and the role it plays in our local contexts.
 
 ---
-
+![alt text](maker-team.jpg){: style="height:50%;width:50%" align=right} 
 ## Reflections & Moments
 
 The Maker Faire itself was a vibrant celebration of creativity. From robotics and CNC demos to handmade crafts and educational exhibits, it was inspiring to see so many people from different backgrounds building and sharing.
 
 I met incredible makers, educators, and organizers, and heard about the unique challenges and opportunities in Louisiana's maker ecosystem. One thing was clear: the spirit of making is alive and well here.
+
+
+<br><br>
 
 ---
 
@@ -149,4 +151,4 @@ Huge thanks to the Maker Faire team for the warm welcome, and to everyone who ma
 
 Let’s keep the network going, whether it's across the Atlantic or just across town.
 
-![race](../../assets/img_posts/makerfair_shreveport/race.jpg)
+![race](./race.jpg)
