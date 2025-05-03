@@ -1,4 +1,5 @@
 ---
+title: init
 hide:
   - navigation
   - toc
