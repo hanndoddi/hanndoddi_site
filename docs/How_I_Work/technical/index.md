@@ -4,20 +4,26 @@ icon: material/tools
 
 # :material-tools: Techncal
 
-My tools and workflows I use for technical work
+This section is a curated overview of the tools, systems, and platforms I use in my day-to-day work. From writing code and debugging electronics to documenting projects and designing for fabrication.
 
-## Design Tools
+It’s not meant to be exhaustive or permanent. Tools come and go. What matters is how they fit into a flow and that flow is always evolving.
 
-This section includes the tools I use for visual design, 2D and 3D modeling, electronics layout, and general creative work.
+## Sections
 
-I’m not a designer in the traditional sense, but I often need to communicate ideas visually — whether that’s through schematics, technical drawings, renders, or illustrations.
+- **[Electronics ⚡](Electronics/index.md)**  
+  Logic analyzers, oscilloscopes, soldering tools, and other lab essentials.
 
-These tools help me do that in a way that’s clear, practical, and sometimes even fun.
+- **[Operating System 💻](OS/index.md)**  
+  My Linux Mint setup, terminal preferences, and shell customizations.
 
-## Tools
+- **[Editors ✍️](OS/editors/nvim.md)**  
+  The environments I use to write code and documents - from Neovim to VS Code.
 
-- [Blender 3D](design_tools/blender.md)
-- [Inkscape](design_tools/inkscape.md)
-- [KiCad](design_tools/kicad.md)
-- [FreeCAD](design_tools/freecad.md)
-- [Photopea](design_tools/photopea.md)
+- **[Languages & Tools](OS/languages/c.md)**  
+  Programming languages and related tools I use regularly: Python, C, Lua, Markdown, and more.
+
+- **[Platforms](OS/platforms/arduino.md)**  
+  Arduino, Raspberry Pi, RP2040, ESP32, and other boards and ecosystems I develop for.
+
+- **[Design Tools 🎨](design_tools/index.md)**  
+  CAD, vector design, video editing, and other tools I use in the design process.

@@ -1,3 +1,10 @@
+---
+title: Terminal
+toc_side: right
+---
+<div class="toc-right"></div>
+
+
 # Terminal
 
 The terminal is where I feel most at home. I prefer tools that are fast, keyboard-driven, and easy to customize.
@@ -52,7 +59,7 @@ I don’t customize Kitty much. I use the MesloLGM Nerd Font to support icons, h
 | `Alt + Space`     | Window menu (move, resize, etc.)  |
 
 I use `nvim` as my default terminal editor.  
-You can check out my full Neovim setup [here](editors/nvim.md).
+You can check out my full Neovim setup [here](./editors/nvim.md).
 
 ---
 

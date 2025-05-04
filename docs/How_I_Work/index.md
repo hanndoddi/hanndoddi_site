@@ -9,16 +9,16 @@ Each section reflects a part of my workflow, not just what I use, but **how and 
 
 <div class="grid cards" markdown>
 
-- !!! note "[Technical](/How_I_Work/technical/)"  
+- !!! note "[Technical](technical/index.md)"  
    Tools I use every day, operating systems, terminal tools, editors, programming languages, and platforms for embedded and digital design.
 
-- !!! example "[Logical](/How_I_Work/logical/)"  
+- !!! example "[Logical](logical/index.md)"  
    How I solve problems, prototype quickly, debug effectively, and learn by doing.
 
-- !!! question "[Systematic Thinking](/How_I_Work/systematic/)"  
+- !!! question "[Systematic Thinking](systematic/index.md)"  
    My approach to innovation, layered development, documenting as I go, and managing time and resources across projects.
 
-- !!! tip "[Practical](/How_I_Work/practical/)"  
+- !!! tip "[Practical](practical/index.md)"  
    The habits and practices that support communication, collaboration, and staying aware of what's happening around me.
 
 </div>

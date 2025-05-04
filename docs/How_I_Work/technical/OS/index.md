@@ -1,4 +1,9 @@
-# OS
+---
+icon: fontawesome/solid/laptop-code
+---
+
+
+# :fontawesome-solid-laptop-code: Operating System
 
 ## Linux Mint 🐧
 

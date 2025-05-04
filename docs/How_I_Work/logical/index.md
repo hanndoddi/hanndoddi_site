@@ -10,16 +10,16 @@ It helps me break down problems, test assumptions, and make thoughtful decisions
 This section explores four areas:
 
 
-- [Critical Thinking](/How_I_Work/logical/critical_thinking/)  
+- [Critical Thinking](critical_thinking.md)  
   How I question assumptions, reason through challenges, and pay attention to the details that matter.
 
-- [Decision-Making](/How_I_Work/logical/decision_making/)  
+- [Decision-Making](decision_making.md)  
   How I use pattern recognition and analysis to choose paths forward, even when the answer isn’t obvious.
 
-- [Problem Solving](/How_I_Work/logical/problemsolving/)  
+- [Problem Solving](problemsolving.md)  
   How I approach problem solving, whether it’s general, electronics-based, or programming related.
 
-- [Rapid Prototyping](/How_I_Work/logical/rapid_prototyping/)  
+- [Rapid Prototyping](rapid_prototyping.md)  
   My mindset around fast iterations, working with what I have, and learning through action.
 
 These skills support everything I do—from teaching and prototyping to troubleshooting and planning.
