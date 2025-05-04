@@ -1,9 +1,3 @@
----
-title: Terminal
-toc_side: right
----
-<div class="toc-right"></div>
-
 
 # Terminal
 
