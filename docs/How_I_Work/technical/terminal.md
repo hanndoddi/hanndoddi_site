@@ -110,3 +110,7 @@ These are some of the tools I use regularly in the terminal:
 - [hollywood](https://github.com/dustinkirkland/hollywood) - to look like a hacker
 
 These tools help me move fast, automate tasks, and stay in flow.
+
+!!! tip "Command got you confused?"
+    Paste it into [explainshell.com](https://explainshell.com/){:rel="nofollow"} to see what each part does.
+
