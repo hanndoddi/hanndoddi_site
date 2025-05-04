@@ -1,5 +1,6 @@
 ---
 date: 2025-04-04
+authors: [Þórarinn]
 description: >
   A personal journey from fear to familiarity with Neovim. I use Neovim btw!
 categories:

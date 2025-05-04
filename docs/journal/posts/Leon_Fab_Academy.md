@@ -1,5 +1,6 @@
 ---
 date: 2024-01-01
+authors: [Þórarinn]
 description: >
   Notes from the Fab Academy Instructor Bootcamp in León, Spain.
 #draft: true
@@ -38,7 +39,7 @@ One of the best parts of any bootcamp is meeting others instructors, coordinator
 We explored a variety of topics from workflows and machine maintenance to educational strategies and emerging tools.
 
 Full documentation:  
-👉 [Fab Academy 2024 – Instructor Bootcamp](https://academany.fabcloud.io/fabacademy/2024/bootcamp-instructors/)  
+👉 [Fab Academy 2024 – Instructor Bootcamp](https://academany.fabcloud.io/fabacademy/2024/bootcamp-instructors/){:rel="nofollow"}  
 👉 [Local site – León](https://fabacademy.org/2023/labs/leon/bootcampleon/index.html)
 
 It was refreshing to step out of our usual lab routines and engage with ideas from other instructors trying out different techniques, testing assumptions, and even debugging things together.

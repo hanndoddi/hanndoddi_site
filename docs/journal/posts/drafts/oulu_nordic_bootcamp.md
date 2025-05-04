@@ -1,6 +1,6 @@
 ---
 date: 2022-02-08
-#authors: [Þórarinn]
+authors: [Þórarinn]
 description: >
   let problemsolve
 draft: true

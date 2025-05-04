@@ -21,7 +21,7 @@ In 2024, I received an invitation to join the [Shreveport-Bossier Maker Faire](h
 
 Preparing for the trip took some effort, coordinating schedules, finishing projects at the lab, and planning the talk. The day before departure, I traveled to Reykjavík and spent the day at [Fab Lab Reykjavík](https://www.flr.is){:rel="nofollow"}  to catch up with colleagues and narrow down what I could share at the Maker Faire.
 
-I left Reykjavík early in the morning, flew through JFK and Atlanta, and finally arrived in Shreveport on Friday morning after some delays and a missed connection. Tired, but excited. Joel picked me up at the airport in his Maker Van. He’s a true community engager like no other. On the same flight was Hunter, part of the [Power Racing Series](https://powerracingseries.org/), where people modify toy cars to race them at high speeds.
+I left Reykjavík early in the morning, flew through JFK and Atlanta, and finally arrived in Shreveport on Friday morning after some delays and a missed connection. Tired, but excited. Joel picked me up at the airport in his Maker Van. He’s a true community engager like no other. On the same flight was Hunter, part of the [Power Racing Series](https://powerracingseries.org/){:rel="nofollow"}, where people modify toy cars to race them at high speeds.
 
 ---
 
@@ -29,7 +29,7 @@ I left Reykjavík early in the morning, flew through JFK and Atlanta, and finall
 
 ## Visiting Sci-Port
 
-After the airport pickup, we went straight to [Sci-Port](https://sci-port.org/) to meet the Maker Faire team. Sci-Port is a discovery center with impressive exhibitions and a newly established Makerspace/STEM center.
+After the airport pickup, we went straight to [Sci-Port](https://sci-port.org/){:rel="nofollow"} to meet the Maker Faire team. Sci-Port is a discovery center with impressive exhibitions and a newly established Makerspace/STEM center.
 
 Friday was spent setting up for the Faire. Because of the travel delays, I unfortunately missed a scheduled TV interview in the morning. But I got to meet many of the people I had connected with online, and that’s always a great moment.
 
