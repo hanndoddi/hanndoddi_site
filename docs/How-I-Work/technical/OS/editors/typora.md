@@ -38,6 +38,7 @@ I usually turn to Typora for:
 - I don’t use it for technical or versioned Markdown (Neovim or VS Code take over there)
 - It’s closed-source, but stable and fast
 - Plays well with Git as long as I’m not doing anything too complex
+- Yes, this page about Typora was written in Typora
 
 ![type](../../../../assets/img/img_howiwork/technical/os/editors/typra-type.png){: style="height:47%;width:47%" align=left} 
 ![startrek](../../../../assets/img/img_howiwork/technical/os/editors/typora-startrek.png){: style="height:47%;width:47%" align=right} 

@@ -13,16 +13,16 @@ These aren’t tied to specific brands or models. Instead, they reflect how I wo
 
 ---
 
-### → [Soldering](soldering.md)
+### → [Soldering](soldering/)
 The foundation of hands-on electronics work. Through-hole, SMD, fixes, and best practices.
 
-### → [Multimeter](multimeter.md)
+### → [Multimeter](multimeter/)
 Quick checks, continuity tests, and reading the basics — still one of the most powerful tools.
 
-### → [Oscilloscope](oscilloscope.md)
+### → [Oscilloscope](oscillscope/)
 Understanding what's happening in a circuit over time. Analog, digital, and mobile scopes.
 
-### → [Logic Analyzer](logic_analyzer.md)
+### → [Logic Analyzer](logic-analyzer/)
 Looking into digital signals and protocols — I²C, SPI, UART, and more.
 
 ---
