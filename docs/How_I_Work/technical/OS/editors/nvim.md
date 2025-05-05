@@ -92,3 +92,9 @@ My take:
 
 Neovim is awesome if it works for you.  
 Happens to work for me.
+
+!!! Note
+    [My jouney to Nvim post](/journal/journey-to-nvim/)
+
+!!! Info
+    [My Dotfiles](/Resourses/my_dotfiles/)
