@@ -19,7 +19,7 @@ The foundation of hands-on electronics work. Through-hole, SMD, fixes, and best 
 ### → [Multimeter](multimeter.md)
 Quick checks, continuity tests, and reading the basics — still one of the most powerful tools.
 
-### → [Oscilloscope](oscillscope.md)
+### → [Oscilloscope](oscilloscope.md)
 Understanding what's happening in a circuit over time. Analog, digital, and mobile scopes.
 
 ### → [Logic Analyzer](logic-analyzer.md)

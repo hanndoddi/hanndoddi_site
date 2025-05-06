@@ -2,7 +2,6 @@
 
 [hanndoddi.com](www.hanndoddi.com)
 
-
 ## Things I'm working on
 
 ### Make a **my work** page
@@ -12,8 +11,6 @@ a page for projects and creative things
 - projects
 - blender work
 - Logo work
-
-
 
 ## resources 
 
@@ -32,7 +29,28 @@ a page for projects and creative things
     * [ ] The Wheel of Time
 
 
-## my studdy
+## my study
 
 - fab academy
-- electronics studdy
+- electronics study
+
+## How I Work
+
+- pages I still need to make
+ - technical: index.md
+      - os:
+           - langues/tools
+                - Lua : lua.md
+          - platforms:
+               - Raspberry Pi: raspberrypi.md
+               - ESP32: esp32.md
+               - CircuitPython: circuitpython.md
+               - RP2040: rp2040.md
+      - Design Tools: index.md
+          - TinkerCAD: tinkercad.md
+          - Kdenlive: kdenlive.md
+
+
+## Other things to look at
+
+- look at using [awesome pages](https://github.com/lukasgeiter/mkdocs-awesome-nav)
