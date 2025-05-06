@@ -68,7 +68,6 @@ That’s up to you to decide.
 
 ## Details about my current setup
 
-You’ll find information about the Neovim setup I use today under [How I Work](../../How_I_Work/technical/OS/editors/nvim.md). It’s evolving and changing all the time.
+You’ll find information about the Neovim setup I use today under [How I Work](../../How-I-Work/technical/OS/editors/nvim.md). It’s evolving and changing all the time.
 
 If you want to look back at where it started the disaster configs, the LazyVim phase, Kickstart, or snapshots along the way you can browse the commit history in my [dotfiles](https://github.com/hanndoddi/dotfiles).
-

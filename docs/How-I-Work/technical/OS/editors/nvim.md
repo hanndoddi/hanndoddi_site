@@ -4,13 +4,13 @@ I mainly started using Neovim because I wanted to look like a cool hacker.(Don�
 
 After getting over how cool it looked and spending days configuring it, I discovered that it’s actually a really nice workflow.
 
-![nvim](/assets/img/img_howiwork/technical/nvim_djoddi_comp.jpg)
+![nvim](../../../../assets/img/img_howiwork/technical/nvim_djoddi_comp.jpg)
 
 ---
 
 ## Setup
 
-![editor](/assets/img/img_howiwork/technical/nvim_editor_com.jpg){ align=right }
+![editor](../../../../assets/img/img_howiwork/technical/nvim_editor_com.jpg){ align=right }
 
 For anyone just starting out, I’d recommend checking out [kickstart nvim](https://github.com/nvim-lua/kickstart.nvim{:rel="nofollow"} ).  
 It’s a great minimal starter config.
@@ -94,7 +94,7 @@ Neovim is awesome if it works for you.
 Happens to work for me.
 
 !!! Note
-    [My jouney to Nvim post](/journal/journey-to-nvim/)
+    [My jouney to Nvim post](../../../../journal/posts/journey_to_nvim.md)
 
 !!! Info
-    [My Dotfiles](/Resourses/my_dotfiles/)
+    [My Dotfiles](../../../../journal/posts/journey_to_nvim.md)
