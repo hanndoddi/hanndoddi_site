@@ -14,7 +14,7 @@ categories:
 It all started with me needing to run a quick test on an RP2040 board. Just a simple check. So I asked:   
 **"Hey, do we have any spare RP2040 boards lying around?"**  
 
-[Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html){:rel="nofollow"}, my ever-resourceful colleague, rummaged around and handed me a small stack. Among them was a Seeed Studio XIAO RP2040 he described as *“pretty much dead.”* It overheated almost instantly when plugged in and showed no signs of life over USB. He’d already tried the usual recovery tricks BOOTSEL mode, re-flashing but nothing worked.
+[Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html), my ever-resourceful colleague, rummaged around and handed me a small stack. Among them was a Seeed Studio XIAO RP2040 he described as *“pretty much dead.”* It overheated almost instantly when plugged in and showed no signs of life over USB. He’d already tried the usual recovery tricks BOOTSEL mode, re-flashing but nothing worked.
 
 Well, not nothing. The LED still lit up.
 

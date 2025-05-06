@@ -11,7 +11,7 @@ categories:
 
 # Instructor Bootcamp – Amsterdam
 
-In January 2023, I flew to Amsterdam with my great colleague and friend [Árni](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/){:rel="nofollow"} from Fab Lab Akureyri to attend the Fab Academy Instructor Bootcamp, a gathering of Fab Lab instructors, past students, and core team members from all over the world. The goal: level up our skills, share knowledge, and connect with the global Fab Lab network.
+In January 2023, I flew to Amsterdam with my great colleague and friend [Árni](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/) from Fab Lab Akureyri to attend the Fab Academy Instructor Bootcamp, a gathering of Fab Lab instructors, past students, and core team members from all over the world. The goal: level up our skills, share knowledge, and connect with the global Fab Lab network.
 
 ![waag](https://academany.fabcloud.io/fabacademy/2023/instructors-bootcamp/img/waag_bootcamp.png)
 
@@ -35,9 +35,9 @@ There’s something special about these in-person meetups after years of online 
 
 ## Workshops & Projects
 
-The days were packed. We covered everything from machine building and pedagogy to new tools like [Modular Things](https://modular-things.fabcloud.io/){:rel="nofollow"}, and everything was well documented on the spot. You can dive into the full documentation here:
+The days were packed. We covered everything from machine building and pedagogy to new tools like [Modular Things](https://modular-things.fabcloud.io/), and everything was well documented on the spot. You can dive into the full documentation here:
 
-👉 [Instructor Bootcamp 2023 – Full Documentation](https://academany.fabcloud.io/fabacademy/2023/instructors-bootcamp/){:rel="nofollow"}
+👉 [Instructor Bootcamp 2023 – Full Documentation](https://academany.fabcloud.io/fabacademy/2023/instructors-bootcamp/)
 
 We got hands-on with new tools, skills, and workflows, shared ideas in show-and-tell sessions, and worked on projects. These are the moments where you really feel the Fab Lab network at work, connecting people who are building and learning *with* each other.
 
@@ -47,7 +47,7 @@ We got hands-on with new tools, skills, and workflows, shared ideas in show-and-
 
 **SVG-PCB**  
 Leo introduced us to SVG-PCB a project that uses JavaScript to design PCBs directly from SVGs, skipping the schematic phase entirely. It’s an interesting new workflow and a refreshing take on board design.  
-Leo also comes from the [Hack Club](https://hackclub.com/{:rel="nofollow"}) community and shared many other awesome projects they’re working on. One standout was *Sprig*, a DIY game console you can program in JavaScript.
+Leo also comes from the [Hack Club](https://hackclub.com/) community and shared many other awesome projects they’re working on. One standout was *Sprig*, a DIY game console you can program in JavaScript.
 
 **Fully Printed Axis**  
 The belt 3D printer (SainSmart INFI-20) had been cleverly mounted on the wall to save space and that sparked an idea. Babken wondered if it could be used to print a full 1-meter linear axis, something that had been tried before horizontally without much success.  
@@ -69,7 +69,7 @@ Waag's Fab Lab has deep roots 15 years strong. Since they hadn’t managed to ce
 
 It was a beautiful event. People from all corners of the community came by, and the celebration included machines, music, and meaningful conversations.
 
-I reached out to a certain Icelandic RAVE DJ known as [DJoddi](https://www.instagram.com/dj_oddi/){:rel="nofollow"}, who happened to be available. One thing led to another, and soon we had a proper dance party on our hands, which wasn’t too hard to get going.
+I reached out to a certain Icelandic RAVE DJ known as [DJoddi](https://www.instagram.com/dj_oddi/), who happened to be available. One thing led to another, and soon we had a proper dance party on our hands, which wasn’t too hard to get going.
 
 ## Thoughts
 

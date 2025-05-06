@@ -7,7 +7,7 @@ The terminal is where I feel most at home. I prefer tools that are fast, keyboar
 
 ## Kitty :fontawesome-solid-cat:
 
-My terminal emulator of choice is [Kitty](https://sw.kovidgoyal.net/kitty/){:rel="nofollow"} . Yes, the name and cat icon won me over, but it's also genuinely fast, GPU-accelerated, and super customizable.
+My terminal emulator of choice is [Kitty](https://sw.kovidgoyal.net/kitty/) . Yes, the name and cat icon won me over, but it's also genuinely fast, GPU-accelerated, and super customizable.
 
 It works great with Neovim and supports features like:
 
@@ -34,7 +34,7 @@ _(kitty_mod `Ctrl + Shift`)_
 
 I don’t customize Kitty much. I use the MesloLGM Nerd Font to support icons, hide the border, and enable transparency. I also use a custom theme.
 
-[My kitty config can be found here](https://github.com/hanndoddi/dotfiles/tree/main/.config/kitty){:rel="nofollow"}
+[My kitty config can be found here](https://github.com/hanndoddi/dotfiles/tree/main/.config/kitty)
 
 ### Appearance
 
@@ -59,7 +59,7 @@ You can check out my full Neovim setup [here](./editors/nvim.md).
 
 ## Starship :simple-starship:
 
-I use [Starship](https://starship.rs/){:rel="nofollow"} to make my prompt clean, informative, and cat-friendly.
+I use [Starship](https://starship.rs/) to make my prompt clean, informative, and cat-friendly.
 
 It gives me:
 
@@ -69,17 +69,17 @@ It gives me:
 
 And of course it includes a cat icon.
 
-[Find my starship.toml config here](https://github.com/hanndoddi/dotfiles/blob/main/.config/starship.toml){:rel="nofollow"}
+[Find my starship.toml config here](https://github.com/hanndoddi/dotfiles/blob/main/.config/starship.toml)
 
 ---
 
 ## Zsh :shell:
 
-I use [Zsh](https://www.zsh.org/){:rel="nofollow"} because it’s highly configurable and offers smart completion, syntax highlighting, and autosuggestions. It's a joy to use once it’s tuned right.
+I use [Zsh](https://www.zsh.org/) because it’s highly configurable and offers smart completion, syntax highlighting, and autosuggestions. It's a joy to use once it’s tuned right.
 
 ### Config
 
-[Find my .zshrc config here](https://github.com/hanndoddi/dotfiles/blob/main/.zshrc){:rel="nofollow"}
+[Find my .zshrc config here](https://github.com/hanndoddi/dotfiles/blob/main/.zshrc)
 
 #### keybinds
 
@@ -102,16 +102,16 @@ I use [Zsh](https://www.zsh.org/){:rel="nofollow"} because it’s highly configu
 
 These are some of the tools I use regularly in the terminal:
 
-- [`git`](https://git-scm.com/){:rel="nofollow"} : for version control and collaborating across projects
-- [`glow`](https://github.com/charmbracelet/glow){:rel="nofollow"} : to preview Markdown directly in the terminal
-- [`fzf`](https://github.com/junegunn/fzf){:rel="nofollow"} : fuzzy finder for quick file and history navigation
-- [`batcat`](https://github.com/sharkdp/bat){:rel="nofollow"} : a better `cat` with syntax highlighting and line numbers
-- [`lazygit`](https://github.com/jesseduffield/lazygit){:rel="nofollow"} : a TUI for Git that’s simple and powerful
+- [`git`](https://git-scm.com/) : for version control and collaborating across projects
+- [`glow`](https://github.com/charmbracelet/glow) : to preview Markdown directly in the terminal
+- [`fzf`](https://github.com/junegunn/fzf) : fuzzy finder for quick file and history navigation
+- [`batcat`](https://github.com/sharkdp/bat) : a better `cat` with syntax highlighting and line numbers
+- [`lazygit`](https://github.com/jesseduffield/lazygit) : a TUI for Git that’s simple and powerful
 - [Yazi](https://github.com/sxyazi/yazi) — Terminal file manager with fast navigation and image previews.
 - [hollywood](https://github.com/dustinkirkland/hollywood) - to look like a hacker
 
 These tools help me move fast, automate tasks, and stay in flow.
 
 !!! tip "Command got you confused?"
-    Paste it into [explainshell.com](https://explainshell.com/){:rel="nofollow"} to see what each part does.
+    Paste it into [explainshell.com](https://explainshell.com/) to see what each part does.
 
