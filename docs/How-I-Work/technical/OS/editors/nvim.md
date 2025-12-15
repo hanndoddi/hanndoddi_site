@@ -24,7 +24,7 @@ I now use my own custom setup, inspired by Kickstart and a few other configs I�
 
 ## What I’m Using
 
-- ✅ **Neovim 0.11** (manually installed from official tarball)
+- ✅ **Neovim 0.11.5** (manually installed from official tarball)
 - ✅ Lazy as plugin manager
 - ✅ Modular Lua config under `~/.config/nvim/lua/hanndoddi`
 - ✅ Custom dashboard with personal shortcuts
