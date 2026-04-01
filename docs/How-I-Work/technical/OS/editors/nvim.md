@@ -1,6 +1,6 @@
 # Neovim (I use Neovim btw)
 
-I mainly started using Neovim because I wanted to look like a cool hacker.(Don’t worry, I’m not much of a danger)
+I mainly started using Neovim because I wanted to look like a cool hacker. (Don’t worry, I’m not much of a danger)
 
 After getting over how cool it looked and spending days configuring it, I discovered that it’s actually a really nice workflow.
 
@@ -24,7 +24,7 @@ I now use my own custom setup, inspired by Kickstart and a few other configs I�
 
 ## What I’m Using
 
-- ✅ **Neovim 0.11.5** (manually installed from official tarball)
+- ✅ **Neovim 0.12** (manually installed from official tarball)
 - ✅ Lazy as plugin manager
 - ✅ Modular Lua config under `~/.config/nvim/lua/hanndoddi`
 - ✅ Custom dashboard with personal shortcuts
@@ -53,12 +53,12 @@ My config is split into:
 ## Notable Plugins
 
 
-- **lualine** – statusline
-- **telescope** – fuzzy finder
-- **nvim-tree** – file explorer
-- **vim-visual-multi** – multi-cursor
-- **todo-comments** – highlight and search TODOs
-- **surround**, **substitute**, **comment** – editing helpers
+- **lualine** - statusline
+- **telescope** - fuzzy finder
+- **nvim-tree** - file explorer
+- **vim-visual-multi** - multi-cursor
+- **todo-comments** - highlight and search TODOs
+- **surround**, **substitute**, **comment** - editing helpers
 - **formatter**, **linter**, **gitsigns**
 - **leap** - moving around fast
 
@@ -69,14 +69,68 @@ My config is split into:
 
 ## Update Process
 
-- Manually update Neovim from GitHub releases:
-  
-  ```
-  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
-  sudo rm -rf /opt/nvim
-  sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
-  sudo ln -sf /opt/nvim/bin/nvim /usr/local/bin/nvim
-  ```
+I use two options for updating Neovim depending on whether it’s a big update or it’s been a while since I last updated.
+
+### Option 1 - Quick Test (AppImage)
+
+I use this to test a new version safely before installing system-wide to check if anything breaks.
+
+```bash
+cd /tmp
+wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+
+chmod +x nvim-linux-x86_64.appimage
+./nvim-linux-x86_64.appimage
+```
+
+**Notes:**
+
+- Runs Neovim without installing anything
+- Uses my existing config (`~/.config/nvim`)
+- Good for testing compatibility before upgrading
+- Does not affect your system version
+
+------
+
+### Option 2 - System-wide Install (/opt)
+
+This is the main installation/update method if I'm sure nothing critical will break. This replaces the existing Neovim binary but keeps my config and plugins intact.
+
+```bash
+cd /tmp
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+
+sudo rm -rf /opt/nvim-linux-x86_64
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+```
+
+**Symlink (only needed once):**
+
+```
+sudo ln -sf /opt/nvim-linux-x86_64/bin/nvim /usr/local/bin/nvim
+```
+
+------
+
+### Verify Installation
+
+I use this to make sure everything works like before. I also run `:checkhealth` before and after updating and compare the results.
+
+```
+which nvim
+nvim --version
+ls -l /usr/local/bin/nvim
+```
+
+Expected:
+
+- `nvim` → `/usr/local/bin/nvim`
+- version matches installed release
+- symlink points to `/opt/nvim-linux-x86_64/bin/nvim`
+
+
+
+
 
 ---
 
@@ -88,7 +142,7 @@ I'm Still exploring deeper workflows like native multi-cursor editing, but happy
 
 My take:
 - Don’t force Neovim to act like VS Code.
-- If you’re happy with your current editor — keep using it!
+- If you’re happy with your current editor - keep using it!
 
 Neovim is awesome if it works for you.  
 Happens to work for me.
