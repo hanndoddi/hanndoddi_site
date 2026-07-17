@@ -1,0 +1,28 @@
+/* Custom primary color for header */
+:root {
+    --md-primary-fg-color:        #279465;  /* dark navy or your choice */
+    --md-primary-bg-color:        #FFFFFF;
+    --md-primary-bg-color--light: #FFFFFF;
+    --md-primary-bg-color--dark:  #FFFFFF;
+  
+    --md-typeset-a-color: #4FC3F7; /* optional: link color */
+  }
+  
+
+  @font-face {
+  font-family: 'JetBrainsMono Nerd Font';
+  src: url('../../assets/fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Set JetBrainsMono Nerd Font for code blocks */
+code, pre, .md-typeset code {
+  font-family: 'JetBrainsMono Nerd Font', monospace;
+}
+
+/* Fallback for custom icon spans */
+.icon {
+  font-family: 'JetBrainsMono Nerd Font', monospace;
+}
