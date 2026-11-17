@@ -10,8 +10,8 @@ a page for projects and creative things
 
 - projects
 - blender work
-- Logo work
-
+- Logo work  
+ 
 ## resources 
 
 - My old electronics work(might take to much space)
