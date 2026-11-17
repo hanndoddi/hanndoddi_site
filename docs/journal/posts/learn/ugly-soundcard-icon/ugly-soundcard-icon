@@ -1,0 +1,164 @@
+---
+date: 2026-03-03
+authors: [Þórarinn]
+description: >
+  Diagnosing and repairing an overheating RP2040-based Seeed Studio XIAO board.
+#draft: true
+categories:
+  - Journal
+  - Linux
+---
+# The Ugly Soundcard Icon
+
+It started with a small annoyance.
+
+Every Bluetooth speaker I paired in Blueman showed this little circuit board icon  some classic `audio-card` from the 90s instead of anything resembling a speaker. It wasn't breaking anything. It just looked wrong. And once I noticed it, I couldn't stop noticing it even tough I open bluman for a split second to conect my speaker is was still there in the system background and in my mind.
+
+So naturally I tought how hard can it be t change this but ended up going down the rabbit hole.
+
+------
+
+## The Obvious Things That Didn't Work
+
+My first instinct was to right-click the device in Blueman and look for a preferences option. There was one. It showed me a read-only info panel with a line that said `Icon: audio-card`. No edit button. Just a window staring back at me.
+
+Fine. I'd do it manually surely I can just find some config file and change it to `audio-speaker`
+
+Blueman stores device info in `/var/lib/bluetooth/`. Each paired device gets its own folder named after its MAC address, and inside there's a file called `info`. I opened it up:
+
+```ini
+[General]
+Name=ht
+Class=0x240414
+SupportedTechnologies=BR/EDR;
+...
+```
+
+No `Icon=` line. So I added one:
+
+```ini
+Icon=audio-speakers
+```
+
+Restarted Bluetooth. Reopened Blueman. 
+
+Thinking this was easy but no, same ugly soundcard.
+
+I tried changing the `Class=` value instead I had noticed that the my headphones showed the right icon, and its class was different. After some experimenting, that actually changed the *label* (it now said "Headphones" instead of "Loudspeaker"), but the icon showd ad headphone now.
+
+------
+
+## Going Deeper
+
+At this point I started digging into how Blueman actually decides which icon to show. I found the key function in `ManagerDeviceList.py`:
+
+```python
+surface = self._make_device_icon(device["Icon"], ...)
+```
+
+It just reads the `Icon` property directly from BlueZ — the system Bluetooth daemon. Blueman isn't deciding anything. BlueZ is.
+
+So where does BlueZ get the icon name? I searched through shared libraries, udev rules, config files. Nothing useful. Then I found this in WirePlumber's Lua script at `/usr/share/wireplumber/scripts/monitors/bluez.lua`:
+
+```lua
+local icon_map = {
+  ["microphone"] = "audio-input-microphone",
+  ["headset"]    = "audio-headset",
+  ["headphone"]  = "audio-headphones",
+  ["speaker"]    = "audio-speakers",
+  ...
+}
+local f = properties["device.form-factor"]
+icon = icon_map[f] or "audio-card"
+```
+
+There it was. WirePlumber assigns the icon based on `device.form-factor`. If the device doesn't broadcast a form factor and most cheap Bluetooth speakers don't it falls back to `audio-card`. No matter what you put in the BlueZ `info` file, WirePlumber overrides it.
+
+The `Class=` and `Icon=` lines I had been editing? Completely irrelevant to this. I tought about doing some changes here bu it did't seam like a vice think and it would probably just get changed in the next update so this was a dead end.
+
+------
+
+## Finding the Icon
+
+Now I knew what icon I wanted to replace. The next question was: where does `audio-card` actually come from?
+
+I'm using the **Mint-Y-Sand** icon theme. Searching for `audio-card` inside it turned up nothing. Blueman was inheriting it from **Papirus** as a fallback. That's the theme Mint-Y-Sand inherits from when it doesn't have an icon of its own.
+
+The icons I actually wanted  `audio-speakers`, `audio-headphones` existed in both Papirus and Mint-Y.
+
+My first idea: copy the speaker SVG into `~/.local/share/icons/Papirus/` renamed as `audio-card.svg`, update the cache, done. GTK should pick up the local version first, right?
+
+Wrong. GTK doesn't treat a folder in `~/.local/share/icons/` as a valid override unless it has a proper `index.theme` file. So I copied that over too and ran:
+
+```bash
+gtk-update-icon-cache ~/.local/share/icons/Papirus/
+```
+
+Restarted Blueman. Rebooted the laptop even.
+
+Still the same icon.
+
+------
+
+## What Actually Worked
+
+After some thiking and reading I felt like I was closer I then tought mabey I can just make a cusom theme so it would trigger the change and it clicked.
+
+The real fix was to stop patching existing themes and just create a new one a thin wrapper that inherits from Mint-Y-Sand and overrides only the one icon I cared about.
+
+```bash
+mkdir -p ~/.local/share/icons/Mint-Y-Sand-Custom/devices/48
+
+cp /usr/share/icons/Papirus/48x48/devices/audio-speakers.svg \
+   ~/.local/share/icons/Mint-Y-Sand-Custom/devices/48/audio-card.svg
+```
+
+Then create `~/.local/share/icons/Mint-Y-Sand-Custom/index.theme`:
+
+```ini
+[Icon Theme]
+Name=Mint-Y-Sand-Custom
+Comment=Mint-Y-Sand with custom icons
+Inherits=Mint-Y-Sand
+Directories=devices/48
+
+[devices/48]
+Size=48
+Type=Fixed
+```
+
+Update the cache:
+
+```bash
+gtk-update-icon-cache ~/.local/share/icons/Mint-Y-Sand-Custom/
+```
+
+Switch to the new theme in **System Settings > Themes > Icons**.
+
+That was it. Both speakers now show a proper speaker icon in Blueman something I will only look at every now and then and close but it's a much nicer icon.
+
+------
+
+## Why This Works (and Why the Other Stuff Didn't)
+
+I now undestood why the other attems did't work.
+
+GTK's icon lookup walks through the active theme, then its parents, then fallbacks. By creating a proper theme that inherits from Mint-Y-Sand, we slot in at the top of that chain. GTK finds `audio-card` in our local theme before it ever reaches Papirus.
+
+The earlier attempt of dropping files into `~/.local/share/icons/Papirus/` failed because that wasn't registered as an active theme  just a folder sitting there. GTK never looked at it.
+
+The whole thing lives in `~/.local/` so it survives system updates. Nothing system-level was changed.
+
+------
+
+## The Cleanup
+
+The failed Papirus attempt left some files behind:
+
+```bash
+rm -rf ~/.local/share/icons/Papirus/
+```
+
+And that's it. One small annoyance, fixed. One eving of digging through WirePlumber Lua scripts, GTK theme inheritance, and BlueZ internals to get there but it works and I know a bit more all of it fits together. Having moments like this remind me why I use Linux when ever something anoise me there is a way raning from a 1 munut to a year of finding the soulution but it's my system my desicion to change or break it and with that comes a system that is custom made for what I like.
+
+Worth it.
