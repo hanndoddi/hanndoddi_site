@@ -66,7 +66,7 @@ After flashing, I made another memory dump.
 
 This time things looked very different. Instead of a long list of `FF` bytes, I could see actual program data in the hex editor. It was interesting to see the difference before and after flashing.
 
-[hex dump after](./arduino-uno-r3-flash-after.webp)
+![hex dump after](./arduino-uno-r3-flash-after.webp)
 
 Next, I ran:
 
